@@ -1,0 +1,31 @@
+/* 
+Table of content
+------------------
+1. General
+2. Navbar
+3. Banner
+4. About
+5. Services
+6. Portofolio
+7. Contact
+8. Footer
+--------------------
+*/
+
+/* Popins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    /* Background color */
+    --primary-color: #fd4766;
+    --secondary-color: #0e1525;
+    --bg-dark-blue: #091020;
+    --bg-white: #fff;
+    --gray-color: #c6c9d8bf;
+}
