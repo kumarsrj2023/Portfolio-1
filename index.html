@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="/css/main-style.css">
     <link rel="stylesheet" href="/css/responsive.css">
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
     <!-- navbar section -->
     <header class="header_wrapper">
         <nav class="navbar navbar-expand-lg fixed-top ">
@@ -92,8 +92,13 @@
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="pills-project-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-project" type="button" role="tab" aria-controls="pills-project"
-                                    aria-selected="false">Projects</button>
+                                    data-bs-target="#pills-project" type="button" role="tab"
+                                    aria-controls="pills-project" aria-selected="false">Projects</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-education" type="button" role="tab"
+                                    aria-controls="pills-education" aria-selected="false">Education</button>
                             </li>
                         </ul>
                         <div class="tab-content" id="pills-tabContent">
@@ -145,11 +150,52 @@
                                 aria-labelledby="pills-project-tab" tabindex="0">
                                 <ul class="text-start ps-0">
                                     <li>
-                                        <a href="#"><span>School Project</span>2023-2024</a>
+                                        <a href="#"><span>School Project</span> - 2024</a>
+                                    </li>
+                                </ul>
+                                <ul class="text-start ps-0">
+                                    <li>
+                                        <a href="#"><span>Portofolio-1</span> - 2024</a>
+                                    </li>
+                                </ul>
+                                <ul class="text-start ps-0">
+                                    <li>
+                                        <a href="#"><span>Portofolio-2</span> - 2024</a>
+                                    </li>
+                                </ul>
+                                <ul class="text-start ps-0">
+                                    <li>
+                                        <a href="#"><span>Portofolio-3</span> - 2024</a>
                                     </li>
                                 </ul>
                             </div>
-                            
+
+                            <div class="tab-pane fade" id="pills-education" role="tabpanel"
+                                aria-labelledby="pills-education-tab" tabindex="0">
+                                <ul class="text-start ps-0">
+                                    <li>
+                                        <a href="#">High School<span> - S.G.R.P. Inter College</span> - 2010</a>
+                                    </li>
+                                </ul>
+                                <ul class="text-start ps-0">
+                                    <li>
+                                        <a href="#">Intermediate<span> - S. I. C. Narayanpur Kakarahi Ghazipur</span> -
+                                            2012</a>
+                                    </li>
+                                </ul>
+                                <ul class="text-start ps-0">
+                                    <li>
+                                        <a href="#">Gradutation <span> - Yashoda Mahavidyalaya Patrahi Jaunpur</span> -
+                                            2015</a>
+                                    </li>
+                                </ul>
+                                <ul class="text-start ps-0">
+                                    <li>
+                                        <a href="#">B. C. A.<span> - J. S. University</span> - 2025</a>
+                                    </li>
+                                </ul>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -157,6 +203,217 @@
         </div>
     </section>
     <!-- about section exit -->
+
+    <!-- Service section -->
+    <div id="services" class="services_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">What can i do for you</span>
+                    <h2>My Awesome Service</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, error!
+                        <br class="d-none d-md-block"> Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="/images/service/service-1.svg" alt="service-1" class="img-fluid mb-4">
+                            <h3>Business Stratagy</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, recusandae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="/images/service/service-2.svg" alt="service-1" class="img-fluid mb-4">
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, recusandae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="/images/service/service-3.svg" alt="service-1" class="img-fluid mb-4">
+                            <h3>App Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, recusandae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="/images/service/service-4.svg" alt="service-1" class="img-fluid mb-4">
+                            <h3>Designer</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, recusandae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="/images/service/service-1.svg" alt="service-1" class="img-fluid mb-4">
+                            <h3>Designer</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, recusandae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="/images/service/service-2.svg" alt="service-1" class="img-fluid mb-4">
+                            <h3>Designer</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, recusandae.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service section exit -->
+
+    <!-- Portofolio Section -->
+    <div id="portfolio" class="portofolio_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">My Compolete Project</span>
+                    <h2>My Letest Project</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, error!
+                        <br class="d-none d-md-block"> Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image: url('/images/portfolio/Foodies.png');"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image: url('/images/portfolio/App-Landing-Page.png');"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image: url('/images/portfolio/Christmas-Landing-Page.png');"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span
+                            style="background-image: url('/images/portfolio/E-Commerce-Website-Using-Bootstap-5.png');"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span
+                            style="background-image: url('/images/portfolio/Ecommerce-Jewellery-Website.png');"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image: url('/images/portfolio/Hashtag-Landing-Page.png');"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image: url('/images/portfolio/HeadPhones.png');"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image: url('/images/portfolio/Pizza-Landing-Page.png');"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portofolio Section Exit -->
+
+    <!-- Contact Section -->
+    <div id="contact" class="contact_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+                    <span class="subtitle">Contact Me</span>
+                    <h2>Hire Me</h2>
+                    <div class="row call_details mb-4">
+                        <label class="col-sm-3 col-lg-4">Call Us Directly: </label>
+
+                        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                            <a href="javascript:void(0)">+111 (0)55 5869 8976</a>
+                        </div>
+
+                        <label class="col-sm-3 col-lg-4">Contact Email: </label>
+
+                        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                            <a href="mailto:example@gmail.com">example@gmail.com</a>
+                        </div>
+                    </div>
+                    <form action="">
+                        <div class="mb-4">
+                            <input type="text" class="form-control" name="name" placeholder="Your name..." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <input type="tel" class="form-control" name="phone" placeholder="Your phone..." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <input type="tel" class="form-control" name="email" placeholder="Your email..." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <textarea class="form-control" name="" id="" cols="40" rows="4" placeholder="Write a message..."></textarea>
+                        </div>
+                        <button class="main_btn" type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+                    <img src="/images/contact.jpg" alt="contact" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Section Exit -->
+
+    <!-- Footer section -->
+    <div id="contact" class="footer_wrapper mt-3 mt-md-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6 text-center text-md-start">
+                    <div class="footer_logo mb-3 mb-md-0">
+                        <img src="/images/logo.png" alt="logo" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <ul class="social_icon list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center mb-3 mb-md-0">
+                        <li>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="copywrite_text text-lg-start text-center mb-3 mb-lg-0">
+                        <p class="mb-0">
+                            @Copywrite as a Learning Purpose
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer section exit -->
 
 
 
